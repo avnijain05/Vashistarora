@@ -6,11 +6,17 @@ body {
   padding: 20px;
 }
 
-.container {
-  max-width: 600px;
-  margin: auto;
-  background: white;
+.outer-container {
+  border: 10px solid #ff69b4; /* Pink border */
   border-radius: 20px;
+  padding: 20px;
+  max-width: 620px; /* Adjusted for outer padding */
+  margin: auto;
+}
+
+.container {
+  background: #e7f1ff; /* Light blue background */
+  border-radius: 15px;
   padding: 30px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
@@ -21,8 +27,14 @@ body {
   margin: 20px 0;
 }
 
-audio {
+.additional-content {
   margin-top: 20px;
+}
+
+.additional-photo {
+  width: 100%;
+  border-radius: 15px;
+  margin: 10px 0;
 }
 
 footer {
